@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colégio .........</title>
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+  <header>
+    <h1>Colégio ....</h1>
+    <p>Educação de qualidade para o futuro</p>
+  </header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#cursos">Cursos</a>
+    <a href="Curiosidades">Curiosidades</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <main>
+    <section id="sobre">
+      <h2>Sobre o Colégio</h2>
+      <p>O Colégio ...... é comprometido com o desenvolvimento integral dos alunos, oferecendo um ambiente seguro, estimulante e com ensino de excelência.</p>
+    </section>
+    <section id="cursos">
+      <h2>Cursos Oferecidos</h2>
+      <ul>
+        <li>Ensino Fundamental II</li>
+        <li>Ensino Médio</li>
+        <li>Ensino Médio Técnico</li>
+      </ul>
+    </section>
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="contactForm">
+        <label for="nome">Nome:</label><br />
+        <input type="text" id="nome" name="nome" required /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="mensagem">Mensagem:</label><br />
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br /><br />
+        <button type="submit" class="btn-contact">Enviar</button>
+      </form>
+      <p id="statusMessage" style="color: green; font-weight: bold;"></p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Colégio Exemplo - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
